@@ -1,1 +1,27 @@
 // Mixins in here
+.mobileLayout(@align, @justify, @direction, @width){
+    flex-direction: @direction;
+    align-items: @align;
+    justify-content: @justify;
+    width: @width;
+}
+
+.navLinks(){
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+}
+
+.btnStyles(){
+    text-decoration: none;
+    border: 1px solid @silver;
+    border-radius: 15px;
+    background-color: @button-bg; 
+    color: @white;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    font-size: 2rem;
+}
